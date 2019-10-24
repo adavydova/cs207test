@@ -7,12 +7,4 @@ before_install:
 script:
     - pytest --cov=./
 after_success:
-    - codecovlanguage: python
-python:
-    - "3.6"
-before_install:
-    - pip install pytest pytest-cov
-script:
-    - pytest
-codecov:
-  token: 8453cabd-7182-41ae-b1be-a6ae6c966a1c
+    - codecov
