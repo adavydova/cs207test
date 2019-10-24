@@ -14,3 +14,5 @@ before_install:
     - pip install pytest pytest-cov
 script:
     - pytest
+codecov:
+  token: 8453cabd-7182-41ae-b1be-a6ae6c966a1c
