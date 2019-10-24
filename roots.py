@@ -1,3 +1,5 @@
+
+
 def linear_roots(a=1.0, b=0.0):
     """Returns the roots of a linear equation: ax+ b = 0.
     
